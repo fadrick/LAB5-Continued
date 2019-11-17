@@ -52,7 +52,7 @@ public class Adapter extends RecyclerView.Adapter<Adapter.ViewHolder>{
 
                     Intent intent=new Intent(context,Second.class);
 
-                    intent.putExtra("Url","https://www.ke.com.pk/");
+                    intent.putExtra("Url","http://www.lesco.gov.pk/Modules/CustomerBill/CheckBill.asp");
                     context.startActivity(intent);
 
 
