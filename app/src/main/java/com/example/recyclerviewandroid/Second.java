@@ -27,5 +27,6 @@ public class Second extends AppCompatActivity {
         webView=(WebView) findViewById(R.id.webview);
 
         webView.loadUrl(url);
+        webView.getSettings().setBuiltInZoomControls(true);
     }
 }
