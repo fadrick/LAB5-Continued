@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:id="@+id/drawer"
-    android:background="#fff"
+    android:background="#263249"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
@@ -16,7 +16,7 @@
       android:layout_width="match_parent"
       android:layout_height="60dp"
       android:id="@+id/toolbar"
-      android:background="#2222"
+      android:background="#fff"
       app:title="Navigation Drawer"
       app:titleTextColor="#222"></androidx.appcompat.widget.Toolbar>
 
